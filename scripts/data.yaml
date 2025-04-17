@@ -1,0 +1,5 @@
+train: E:/DATA SCIENTIST_ASSIGNMENT/yolo_dataset/images/train
+val: E:/DATA SCIENTIST_ASSIGNMENT/yolo_dataset/images/train
+
+nc: 1
+names: ["license_plate"]

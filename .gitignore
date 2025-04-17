@@ -1,0 +1,34 @@
+# Ignore cropped plate images
+cropped_plates/
+
+# Ignore raw or processed data folders
+data/
+yolo_dataset/
+labels_yolo/
+license_plate_detection/
+
+# Ignore YOLO models and weights
+*.pt
+
+# Ignore training/testing output
+runs/
+
+# Ignore test folder contents
+test/
+
+# Ignore document files
+*.docx
+
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.env
+
+# VS Code settings (if applicable)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
